@@ -1,0 +1,156 @@
+/*For dextop*/
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+/*navbar design start here*/
+.nav-logo{
+    text-align: left;
+    font-size: -130.5rem;
+}
+.nav-heading h1{
+    text-align: right;
+}
+.navbar{
+    height: 221px;
+}
+.navbar-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar-menu a{
+    padding:5px 10px;
+    margin:20px 0px;
+    background-color: transparent;
+}
+/*navbar design ends here*/
+
+/*profile design start here*/
+.top-weather-icon{
+    position: absolute;
+   right:90px;
+   top:20px;
+   padding: 10px;
+   width:230px;
+  transition: width 2s transform 2s;
+
+}
+.top-weather-icon:hover{
+    transform: rotate(360deg);
+    width:250px ;
+}
+.bottom-weather-icon{
+    position: absolute;
+    left:140px;
+    bottom: 1px;
+    transition: transform 2s;
+    width: 230px;
+
+    
+
+}
+.bottom-weather-icon:hover{
+    
+    transform: rotate(360deg);
+    width: 250px;
+}
+.profile p{
+    color: gray;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    font-size: 1.4rem;
+    width: 70%;
+   
+}
+/*profile style end here*/
+
+/*aboutme style start here*/
+.about-me{
+    margin-top: 60px;
+    height: 895px;
+    padding: 1% 7%;
+    
+}
+
+.aboutme-dec{
+    margin-top: 30px;
+    margin-left: 60px; 
+    width:80%;
+    text-align: center;
+    
+
+}
+.aboutme-image{
+    margin-left: 340px;
+    margin-top: 20px;
+}
+.dotted-hr{
+    width: 100%;
+} 
+/*about style end here*/
+
+/*skills style start here*/
+.education{
+    margin-top: 0px;
+}
+/*.skills-container{
+    width:80%
+}
+*/
+
+.skills-container li {
+    list-style: none;
+    margin: 30px 20px;
+    position: relative;
+    text-transform: uppercase;
+    
+    font-size: 20px;
+    width: 100%;
+
+    font-weight: bolder;
+    left:0;
+    padding-right: 50px;
+}
+.professional-experience::after{
+    clear: both;
+    display: table;
+    content: '';
+    
+}
+
+/*skills style end here*/
+/*self contact start here*/
+.self{
+    width: 100%;
+    margin-left: 0;
+    height: 570px;
+    
+   
+}
+.contact button{
+    width: 130px;
+    background-color: white
+    
+
+
+}
+/*self contact ends here*/
+/*footer start here*/
+.footer-dec{
+    height: 239px;
+    font-size: 1rem;
+}
+
+.footer-dec p{
+    margin-top: 90px;
+}
+
+
